@@ -25,8 +25,4 @@ class Welcome extends CI_Controller {
 		$this->load->view('main');
 		$this->load->view('footer');
 	}
-
-	public function login_customer(){
-		$this->load->view('login_customer');
-	}
 }
